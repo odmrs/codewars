@@ -10,3 +10,9 @@ func SetAlarm(employed, vacation bool) bool {
 	}
 	return false
 }
+
+// Or just return true directly
+
+// func SetAlarm(employed, vacation bool) bool {
+//   return employed && !vacation
+// }
